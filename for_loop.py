@@ -1,3 +1,4 @@
+# list[2,4,5,55,50]
 # print(list)
 
 # for i in list:
@@ -11,4 +12,6 @@ for i in range(5,50,5):
 
 
 for i in range(5):
-    print("*")
+    for j in range(5):
+    print(i,end =" ")
+ print()
